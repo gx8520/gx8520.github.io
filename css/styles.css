@@ -9,11 +9,13 @@ img {
 }
 
 /*Styles for Mobile Layout */
+
 #container {
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 }
+
 
 header {
 	text-align: center;
@@ -98,6 +100,23 @@ aside {
 	font-style: italic;
 }
 
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+label {
+	display: block;
+}
+
+form ul {
+	list-style-type: none;
+}
+
+.chkbx {
+	display: inline-block;
+}
+	
 /* Tablet rules */
 @media only screen and (min-width: 660px) {
 
@@ -227,6 +246,40 @@ aside {
 		margin: 1em;
 	}
 	
+	table {
+		border: 0.1em solid #000000;
+		border-collapse: collapse;
+		margin-left : auto;
+		margin-right:auto;
+		width: 100%;
+	}
+	
+	th, td {
+		border: 0.1em solid #000000;
+		padding: 1em;
+	}
+	
+	th {
+		background-color: #1D1D1C;
+		color: #FFFFFF;
+	}
+	
+	caption {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding-bottom: 0.5em;
+	}
+	
+	label {
+		float: left;
+		padding-right: 0.5em;
+		text-align: right;
+		width: 10em;
+	}
+	
+	.btn {
+		margin-left: 12em;
+	}
 }	
 
 /* Desktop rules */
@@ -343,4 +396,21 @@ aside {
 		color: #000000;
 	}
 	
+	table {
+		background-color: #FFFFFF;
+		width: 80%;
+	}
+	
+	caption {
+		color: #FFFFFF;
+	}
+	
+	form {
+		background-color: #FFFFFF;
+		padding: 1em;
+	}
+	
+	form p {
+		color: #000000;
+	}
 }
